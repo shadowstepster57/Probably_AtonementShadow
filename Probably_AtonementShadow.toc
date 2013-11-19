@@ -1,0 +1,6 @@
+## Interface: 50400
+## Title: Probably - Atonement[Shadow]
+## Notes: ProbablyEngine Custom Discipline Priest
+## Dependencies: Probably
+
+rotation.lua
