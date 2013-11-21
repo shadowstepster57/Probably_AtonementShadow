@@ -49,11 +49,11 @@ ProbablyEngine.rotation.register_custom(256, "Atonement[Shadow]", {
 	{ "17", "!tank.debuff(6788)" },
 	{ "17", "!focus.debuff(6788)", "focus" },
 	--Penance Atonement
-	{ "47540", "lowest.health < 100" },
+	{ "47540", "lowest.health < 100", "target" },
 	--Holy Fire / Solace
-	{ "14914", "lowest.health < 100" },
-	{ "129250", "lowest.health < 100" },
+	{ "14914", "lowest.health < 100", "target" },
+	{ "129250", "lowest.health < 100", "target" },
 	--Smite
-	{ "585", "lowest.health < 100" },
+	{ "585", "lowest.health < 100", "target" },
 
 })
